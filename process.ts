@@ -4,3 +4,4 @@ Deno.run({
 Deno.run({
   cmd: ["p7zip", "-d", "-f", "retroarch.7z"],
 });
+await Deno.remove("retroarch.7z");
