@@ -27,5 +27,5 @@ jobs:
         with:
           http_url: https://buildbot.libretro.com/nightly/emscripten/RetroArch.7z # The data to fetch every 5 minutes
           downloaded_filename: retroarch.7z
-          postprocess: process.sh
+          postprocess: process.ts
           # mask: true # optional param to mask the source http_url from the commit. Look at README for more options
